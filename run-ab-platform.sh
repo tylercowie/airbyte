@@ -153,7 +153,7 @@ done
 echo
 echo -e "$blue_text""Starting Docker Compose""$default_text"
 
-docker-compose up
+docker compose up
 
 # $? is the exit code of the last command. So here: docker-compose up
 if test $? -ne 0; then
